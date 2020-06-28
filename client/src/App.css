@@ -1,0 +1,61 @@
+/* :root{
+    --white-color:white;
+    --background-color:#E2F1FA;
+    --heading-color:#3B3F44;
+    --text-color:#878B8F;
+    --main-color:#FABB25;
+    --extra-color:#B26139;
+    --extra-color2:#CBA192;
+    --sm-heading-size:1.6em;
+    --md-heading-size:2em;
+    --bg-heading-size:2.2em;
+} */
+body{
+    box-sizing: border-box;
+}
+:root{
+    --white-color:white;
+    --form-color:#0D1232;
+    --heading-color:#FAFAFB;
+    --text-color:#808494;
+    --main-color:#F03B7A;
+    --big-backgound-color:#AEB0BF;
+    --extra-color2:#CBA192;
+    --sm-heading-size:1em;
+    --md-heading-size:2em;
+    --bg-heading-size:2.2em;
+    --input-field:#1c2550;
+    --border-radius:3.5px;
+}
+
+p{
+    margin: 0px ;
+}
+
+h5{
+    color:var(--main-color);
+    font-size: 12px;
+    padding-bottom:1px;
+    margin: 0;
+}
+h4{
+    color:var(--big-backgound-color);
+    margin:0px !important;
+}
+h3{
+    font-size: 1.5rem;
+    color:var(--heading-color) 
+}
+h2{
+    font-size: 2.1rem;
+    margin: 0px !important;
+}
+input::-webkit-input-placeholder {
+    color:var(--big-backgound-color)
+}
+
+select>option{
+    color:red;
+}
+
+
